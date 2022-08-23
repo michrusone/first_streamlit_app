@@ -56,10 +56,10 @@ if streamlit.button("Get Fruit Load List"):
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
 
-fruit_choice2 = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('Thanks for adding ', fruit_choice2)
+#fruit_choice2 = streamlit.text_input('What fruit would you like to add?','jackfruit')
+#streamlit.write('Thanks for adding ', fruit_choice2)
 #fruityvice_response2 = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
